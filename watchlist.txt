@@ -1,0 +1,86 @@
+# Watchlist: Canada
+# Manually maintained research universe; not downloaded from an IBKR watchlist.
+# Review issuer, exchange, symbol mapping and sector coverage when changing it.
+# One symbol per line — lines starting with # are ignored
+#
+# Scope: TSX + TSX Venture only (CAD-denominated underlyings).
+# CDRs (ORAC, CRWD) and tender tickers (NVEI.CADNT) intentionally
+# excluded from the selected research universe; review identity before adding.
+# Symbols with dots (TECK.B, TCL.A, HPS.A etc.) are share classes —
+# the yf_symbols resolver converts them to yfinance's dash format.
+
+TECK.B
+SU
+ABX
+BCE
+AC
+NDA
+T
+TD
+RY
+CNQ
+ENB
+MFI
+BTO
+CVE
+LUN
+NTR
+GSY
+WFG
+CNR
+CP
+IVN
+SLF
+ATD
+CG
+TOU
+RUS
+EQB
+MX
+TOY
+NWC
+POU
+CM
+BMO
+MFC
+MDA
+TRI
+PSK
+ENGH
+TCL.A
+U.UN
+ARX
+NPI
+AII
+PRL
+WELL
+RCI.A
+RIC
+TAL
+MEQ
+RGSI
+RCK
+PALS
+AIF
+CSU
+KXS
+LMN
+CTC
+CTC.A
+EOG
+FSV
+ASTL
+CLS
+AEM
+UCU
+CCO
+NXE
+DML
+SHOP
+OTEX
+LSPD
+BB
+TOI
+DSG
+HPS.A
+DCBO

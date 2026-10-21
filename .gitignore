@@ -1,0 +1,49 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets and credentials (never commit)
+.env
+.env.*
+!.env.example
+*.session
+*.session-journal
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Runtime state, logs and audit trails
+logs/
+*.log
+*.lock
+*.tmp
+browser.lock
+
+# Account / financial data and generated reports
+*.xlsx
+*.xls
+*.csv
+trading_ledger.*
+dashboard.html
+backtest_report.*
+backtest_equity.png
+sweep_report.*
+
+# Private operator notes and pasted third-party material
+pending_tasks.md
+Strategy text from*.txt
+artifacts/
+
+# Node
+node_modules/
+
+# Editor / assistant / OS
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+.DS_Store
